@@ -1,0 +1,109 @@
+@font-face {
+  font-family: nerdIosevka;
+  src: url("../fonts/Iosevka Nerd Font Complete.ttf") format("truetype");
+}
+
+#note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#note .nota {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 66%;
+  min-width: 600px;
+  position: relative;
+  background-color: #212931;
+  border-radius: 10px;
+  opacity: 0.8;
+  border: 2px solid #63aec0;
+  margin: 20px auto;
+}
+
+#note .nota .testo {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 50px;
+}
+
+#note .nota .canc {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #e25959;
+  font-size: 30px;
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#note .nota .canc:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#note .nota:hover {
+  opacity: 1;
+}
+
+#nuovaNota {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  width: 66%;
+  min-width: 600px;
+  margin: 20px auto;
+  position: relative;
+  background-color: #212931;
+  border-radius: 10px;
+  opacity: 0.8;
+  border: 2px solid #63aec0;
+}
+
+#nuovaNota #nuovoTesto {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 50px;
+  background: none;
+  border: 0;
+  resize: none;
+  width: 100%;
+}
+
+#nuovaNota #conf {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #85ba86;
+  font-size: 30px;
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#nuovaNota #conf:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#nuovaNota:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=note.css.map */

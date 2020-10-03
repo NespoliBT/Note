@@ -1,0 +1,88 @@
+@import "./variables.scss";
+
+#note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  flex-direction: column;
+
+  .nota {
+    transition: 0.2s;
+    width: 66%;
+    min-width: 600px;
+    position: relative;
+    background-color: $color_2;
+    border-radius: 10px;
+    opacity: 0.8;
+    border: 2px solid $color_4;
+    margin: 20px auto;
+
+    .testo {
+      color: #ffffff;
+      font-size: 20px;
+      padding: 50px;
+    }
+
+    .canc {
+      transition: 0.2s ease-in-out;
+      color: $color_5;
+      font-size: 30px;
+      position: absolute;
+      bottom: 15px;
+      right: 25px;
+      opacity: 0.8;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+#nuovaNota {
+  transition: 0.2s;
+  width: 66%;
+  min-width: 600px;
+  margin: 20px auto;
+  position: relative;
+  background-color: $color_2;
+  border-radius: 10px;
+  opacity: 0.8;
+  border: 2px solid $color_4;
+
+  #nuovoTesto {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 50px;
+    background: none;
+    border: 0;
+    resize: none;
+    width: 100%;
+  }
+  #conf {
+    transition: 0.2s ease-in-out;
+    color: $color_6;
+    font-size: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    opacity: 0.8;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+  &:hover {
+    opacity: 1;
+  }
+}

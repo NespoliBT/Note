@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: $color_1;
+  font-family: nerdIosevka;
+}
+
+::selection {
+  color: $color_4;
+  background: $color_2;
+  text-shadow: 1px 1px $color_7;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color_3;
+  border-radius: 20px;
+}

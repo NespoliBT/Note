@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAWA,UAAU,CACR,WAAW,CAAE,WAAW,CACxB,GAAG,CAAE,8CAA8C,CAAC,kBAAkB",
+    "sources": [
+        "../scss/variables.scss"
+    ],
+    "names": [],
+    "file": "variables.min.css"
+}
